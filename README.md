@@ -8,7 +8,8 @@ Facial age estimation plays a pivotal role in various applications, yet achievin
 
 The proposed model architecture consists of three convolutional layers with increasing channels, enabling the network to learn intricate facial features critical for precise age estimation. Max pooling layers efficiently extract features, and four fully connected layers capture abstract representations of data. The model outputs age estimates in 17 bins, each corresponding to different age groups. Hyperparameters, including 40 epochs, a batch size of 120, learning rate of 0.001, and Cross Entropy Loss with Rectified Linear Unit (ReLU) activation, were tuned for optimal performance.
 
-<img width="981" alt="Screenshot 2023-10-22 at 12 02 12 PM" src="https://github.com/indiatoryy/Age-Detection-From-Image/assets/105636722/4f9f1134-4a5e-41ab-9a9f-457ee386f91e">
+<img width="981" alt="Screenshot 2023-10-22 at 12 12 58 PM" src="https://github.com/indiatoryy/Age-Detection-From-Image/assets/105636722/b55eee2f-ae7b-4473-a235-5d3b3cb78cec">
+
 
 ## 2. Datasets
 In this project, two primary datasets were employed to create a comprehensive and diverse dataset for training and evaluating the facial age estimation model: UTKFace and FaceARG.
